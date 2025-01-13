@@ -8,7 +8,7 @@ public class Ordenador {
 public Ordenador(String brand, String model) {
 	this.brand = brand;
 	this.model = model;
-	this.processor = "desconocido";
+	this.processor = "unknown";
 }
 public Ordenador(String brand, String model, String processor, int ram, int hardDisc) {
 	this.brand = brand;
